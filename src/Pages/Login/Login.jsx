@@ -26,7 +26,7 @@ const from = location.state?.from?.pathname || '/' ;
             }
             console.log(loggedUser);
           
-          fetch('http://localhost:5000/jwt',{
+          fetch('https://car-doctor-server-mauve-gamma.vercel.app/jwt',{
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
